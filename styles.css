@@ -1,0 +1,70 @@
+
+img{
+	width:200px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+@import url(https://fonts.googleapis.com/css?family=Didact Gothic);
+
+
+h1, h2 , div, p{
+  margin-left: 50px;
+  font-family: 'Didact Gothic', cursive;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+
+h2,ul {
+  font-size: 30px;
+}
+
+
+
+h1, h2  ,div, p,ul{
+
+  color:	#D5AD6D; /*if no support for background-clip*/
+	
+	background: -webkit-linear-gradient(transparent, transparent),
+             -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+	background: -o-linear-gradient(transparent, transparent);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+body{
+  text-align:center;
+ background:black;
+}
+
+
+
+p { color: #ffffff;; font-family: 'Raleway',sans-serif; font-size: 18px; font-weight: 500; line-height: 32px; margin: 0 0 24px; }
+
+
+--img {
+  --border-radius: 50%;
+--}
+
+.roundImg {
+  border-radius: 50%;
+}
+
+a {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+div { color: #F90B6D; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: 300; line-height: 32px; margin: 0 0 14px; }
+
+
+
+span{ color: #F90B6D; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 300; line-height: 40px; margin: 0 0 16px; }
