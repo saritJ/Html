@@ -1,16 +1,36 @@
 
-img{
-	width:200px;
+.whiteTitle{
+   
+    top:15%; /*how far from top of the page*/
+	
+    width:100%;
+	  font-family: 'Courgette', cursive;
+    font-size:4em;
+    text-align:center;
+    color:white; 
 }
 
-@import url(https://fonts.googleapis.com/css?family=Arvo);
-@import url(https://fonts.googleapis.com/css?family=Didact Gothic);
-
-
-h1, h2 , div, p{
-  margin-left: 50px;
-  font-family: 'Didact Gothic', cursive;
+h2, table{
+    width:100%;
+	font-family: 'Courgette', cursive;
+    font-size:4em;
+    text-align:center;
+    transform:translate ;
+    color:#fff;
+    transform:translateY (-50%);
 }
+
+li{
+	  font-family: 'Ariel', cursive;
+    font-size:20px;
+    --text-align:center;
+    transform:translate ;
+	 color:#00FFFF; /*light green*/
+    transform:translateY (-50%);
+}
+
+
+
 
 h1 {
   font-size: 50px;
@@ -23,48 +43,53 @@ h2,ul {
 
 
 
-h1, h2  ,div, p,ul{
+h2  ,div, p,ul,label{
 
-  color:	#D5AD6D; /*if no support for background-clip*/
-	
+	/*gold effect on text*/
 	background: -webkit-linear-gradient(transparent, transparent),
              -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
-	background: -o-linear-gradient(transparent, transparent);
+
 	-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size:22px;
 }
 
+a, button {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  
+  text-transform: uppercase;
+  
+}
 
 
 
 body{
   text-align:center;
- background:black;
+   background:black;
 }
 
 
 
-p { color: #ffffff;; font-family: 'Raleway',sans-serif; font-size: 18px; font-weight: 500; line-height: 32px; margin: 0 0 24px; }
+p { color: #ffffff;font-family: 'Raleway',sans-serif; font-size: 18px; font-weight: 500; line-height: 32px; margin: 0 0 24px; }
 
 
---img {
-  --border-radius: 50%;
---}
+
+img{
+	width:200px;
+}
 
 .roundImg {
   border-radius: 50%;
+   width: 20%;
+   height:50%
 }
 
-a {
-  background-color: red;
-  color: white;
-  padding: 1em 1.5em;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-div { color: #F90B6D; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: 300; line-height: 32px; margin: 0 0 14px; }
 
 
 
-span{ color: #F90B6D; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 300; line-height: 40px; margin: 0 0 16px; }
+
+
+
